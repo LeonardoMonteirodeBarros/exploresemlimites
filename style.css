@@ -5,7 +5,7 @@
 }
 
 :root {
-  font-size: 62, 5%;
+  font-size: 62.5%;
 
   --ff-title: #b52184;
 
@@ -56,6 +56,10 @@ p {
   margin-bottom: 9rem;
 }
 
+section {
+  background-color: var(--pp-paragraph);
+}
+
 section h2 {
   color: #b52184;
   font-family: "Mulish", sans-serif;
@@ -68,7 +72,7 @@ section h2 {
 section,
 p {
   color: var(--pp-paragraph);
-color: white;
+  color: white;
   font-family: "Mulish", sans-serif;
   font-size: 1.5rem;
   font-style: normal;
@@ -81,7 +85,7 @@ color: white;
 .balao2,
 .balao3 {
   border-radius: 2rem;
- 
+
   background-color: #1f1d42;
   box-shadow: 0px 3.3107693195343018px 13.243077278137207px 0px
     rgba(0, 0, 0, 0.25);
@@ -94,71 +98,46 @@ color: white;
   justify-content: stretch;
   align-items: center;
   flex-direction: column;
-  
 }
-
-
-
-
-
-
-
 
 .name,
 .email,
 .message {
-   font-family: "Mulish", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-size: 1.6rem;
   font-style: normal;
-  color: white
+  color: white;
 }
 
-
-
-.name {
-  margin-bottom: 2.5rem;
-}
-
-.email {
-  margin-bottom: 2.5rem;
-}
-
+.name,
+.email,
 .message {
   margin-bottom: 2.5rem;
 }
-
 
 h1 {
   margin-bottom: 4.3rem;
 }
 
-
-
-
-
-#event-name,
-#event-email,
-#event-message {
+.event-input {
   border-radius: 1.6rem;
   border: 1.5px solid #312d64;
   width: 34.8rem;
   height: 4.8rem;
+  font-size: 2rem;
 }
 
 .name,
 .email,
 .message,
-#event-name,
-#event-email,
-#event-message {
+.event-input {
   display: flex;
   justify-content: center;
-  
 }
 
 .send {
   font-family: "Mulish", sans-serif;
-  font-size: 1.6rem;
+  font-size: 2.6rem;
   display: flex;
   align-items: center;
 
@@ -173,3 +152,21 @@ button:hover {
   cursor: pointer;
   color: rgb(26, 25, 25);
 }
+
+footer {
+  text-align: center;
+  color: #fff;
+  font-family: "Mulish", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 1.2rem;
+}
+
+.icon  {
+  width: 2.4rem;
+  height: 2.4rem;
+  
+}
+
