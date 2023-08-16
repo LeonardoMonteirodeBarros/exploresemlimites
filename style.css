@@ -171,11 +171,29 @@ footer {
 
 /* Versão desktop */
 
-@media (min-width: 700px) {
+@media (min-width: 40em) {
   body {
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(255, 255, 255);
 
-    margin: 0 auto;
+    max-width: 144rem;
+  }
+
+  header {
+    display: flex;
+  }
+
+  header p {
+    color: var(--bg-primary);
+    font-family: Mulish, sans-serif;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  header h1 {
+    margin-top: 30rem;
+    font-size: 6.4rem;
   }
 
   .astronaut {
@@ -184,22 +202,39 @@ footer {
     height: 73rem;
   }
 
-  header {
-    display: flex;
-    
+  section {
+    background-color: white;
   }
 
-  header h1 {
-    margin-top: 30rem;
-    font-size: 5.8rem;
+  section h2 {
+    color: #b52184;
+    font-family: "Mulish", sans-serif;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
   }
 
-  header p {
-    font-size: 3.2rem;
-    margin-top: 0.8rem;
+  section,
+  p {
+    color: var(--pp-paragraph);
+    color: var(--pp-paragraph);
+    font-family: "Mulish", sans-serif;
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
   }
 
-  .downarrow {
-    margin-top: 17rem;
+  .balao1,
+  .balao2,
+  .balao3 {
+    border-radius: 2.4rem;
+
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
+    width: 36rem;
   }
+
+ 
 }
