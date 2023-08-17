@@ -1,7 +1,5 @@
 * {
-  margin: 0 auto;
   padding: 0;
-  box-sizing: border-box;
 }
 
 :root {
@@ -48,6 +46,7 @@ p {
   width: 36.4rem;
   height: 37rem;
   background-color: var(--bg-primary);
+  
 }
 
 .downarrow {
@@ -171,15 +170,16 @@ footer {
 
 /* Versão desktop */
 
-@media (min-width: 40em) {
+@media (min-width: 60em) {
   body {
     background-color: rgb(255, 255, 255);
-
-    max-width: 144rem;
+   
   }
 
   header {
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
   }
 
   header p {
@@ -203,22 +203,23 @@ footer {
   }
 
   section {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
   }
 
   section h2 {
-    color: #b52184;
+    color: #fa13ad;
     font-family: "Mulish", sans-serif;
     font-size: 4rem;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    margin-top: 4rem;
   }
 
   section,
   p {
-    color: var(--pp-paragraph);
-    color: var(--pp-paragraph);
+    color: #000000;
+
     font-family: "Mulish", sans-serif;
     font-size: 1.9rem;
     font-style: normal;
@@ -231,10 +232,25 @@ footer {
   .balao3 {
     border-radius: 2.4rem;
 
-    background-color: #ffffff;
+    background-color: #7238a1;
     box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
     width: 36rem;
+    height: 44rem;
   }
 
- 
+  .baloon {
+    flex-direction: row;
+    gap: 6rem;
+    justify-content: center;
+  }
+
+  #myform,
+  footer {
+    width: fit-content;
+    margin: 0;
+    color: #000000;
+  }
+
+  
+  
 }
