@@ -18,6 +18,7 @@ body {
 
 header {
   display: grid;
+  justify-content: center;
 }
 
 h1 {
@@ -125,12 +126,19 @@ h1 {
   font-size: 2rem;
 }
 
-.name,
-.email,
-.message,
-.event-input {
+.input-label {
+  border: 1px solid #ffffff;
+  border-radius: 1.6rem;
   display: flex;
-  justify-content: center;
+  padding: 0.5rem;
+  gap: 1rem;
+  align-items: center;
+  background-color: #fff;
+}
+
+.input-label input {
+  border: none;
+  outline: 0;
 }
 
 .send {
@@ -194,11 +202,14 @@ footer {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    
   }
 
   header h1 {
     margin-top: 30rem;
     font-size: 6.4rem;
+    
+
   }
 
   .astronaut {
@@ -206,8 +217,7 @@ footer {
     width: 71rem;
     height: 73rem;
     margin-bottom: 10rem;
-    margin-right: 2.9rem;
-    margin-left: 6.9rem;
+    
   }
 
   section {
@@ -253,18 +263,27 @@ footer {
     padding: 6.4rem 11rem;
   }
 
- 
-
   .button {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     margin-top: 3.4rem;
+    width: 15rem;
+    height: 4.5rem;
+  }
+
+  .send {
+    color: var(--neutral-colors-white, #fff);
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.4rem;
   }
 
   span {
     color: rgb(0, 0, 0);
-    
   }
 
   footer {
@@ -279,8 +298,36 @@ footer {
 
   .footer {
     background: linear-gradient(134deg, #000000 10%, var(--pp-paragraph) 50%);
-  
-
   }
 
+  #myform {
+    display: flex;
+    flex-direction: column;
+   
+    align-items: flex-start;
+    padding-left: 11.2rem;
+  }
+
+  .input-label {
+    border: 1px solid #000;
+    border-radius: 1.6rem;
+    display: flex;
+    padding: 0.5rem;
+    gap: 1rem;
+    align-items: center;
+    
+  }
+
+  .input-label input {
+    border: 0;
+    outline: 0;
+  }
+
+  .pinkimage {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    
+    
+  }
 }
