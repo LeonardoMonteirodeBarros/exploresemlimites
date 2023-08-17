@@ -239,11 +239,10 @@ footer {
   .balao2,
   .balao3 {
     border-radius: 2.4rem;
-    margin: 6.4rem 11rem;
+
     background-color: #ffffff;
     box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
     width: 35rem;
-    height: 44rem;
   }
 
   .baloon {
@@ -251,6 +250,7 @@ footer {
     gap: 8rem;
     justify-content: center;
     background-color: var(--pp-paragraph);
+    padding: 6.4rem 11rem;
   }
 
   #myform,
@@ -268,23 +268,20 @@ footer {
   }
 
   span {
-    color: black;
+    color: rgb(0, 0, 0);
   }
 
   footer {
     width: 144rem;
     height: 7.8rem;
-    background: linear-gradient(134deg, #343193 0%, #302c63 100%);
-    padding: 1.6rem;
+    background: linear-gradient(134deg, #000000 10%, var(--pp-paragraph) 100%);
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20rem;
-    
   }
 
   .footer {
-    background: linear-gradient(134deg, #343193 0%, #302c63 100%);
-   
+    background: linear-gradient(134deg, #000000 10%, var(--pp-paragraph) 50%);
   }
 }
