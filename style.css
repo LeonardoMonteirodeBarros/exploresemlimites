@@ -253,12 +253,7 @@ footer {
     padding: 6.4rem 11rem;
   }
 
-  #myform,
-  footer {
-    width: fit-content;
-    margin: 6.4rem;
-    color: #000000;
-  }
+ 
 
   .button {
     display: flex;
@@ -269,10 +264,11 @@ footer {
 
   span {
     color: rgb(0, 0, 0);
+    
   }
 
   footer {
-    width: 144rem;
+    width: 100%;
     height: 7.8rem;
     background: linear-gradient(134deg, #000000 10%, var(--pp-paragraph) 100%);
     color: #fff;
@@ -283,5 +279,8 @@ footer {
 
   .footer {
     background: linear-gradient(134deg, #000000 10%, var(--pp-paragraph) 50%);
+  
+
   }
+
 }
